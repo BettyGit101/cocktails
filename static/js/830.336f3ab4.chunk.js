@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcocktails=self.webpackChunkcocktails||[]).push([[830],{9830:(s,c,a)=>{a.r(c),a.d(c,{default:()=>o});var e=a(5043);const i="Notification_notification__Cqy+X";var t=a(579);const n=s=>(0,t.jsx)("div",{className:i,children:(0,t.jsx)("p",{children:s.message})}),o=(0,e.memo)(n)}}]);
+//# sourceMappingURL=830.336f3ab4.chunk.js.map
