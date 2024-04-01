@@ -1,0 +1,41 @@
+.form_container {
+  gap: 7rem;
+  display:flex;
+  margin-left: 10rem;
+  margin-bottom:10rem;
+  align-items: center;
+}
+.new_cocktail_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploaded_img { 
+  max-width: 35vw;
+  max-height:35vh;
+  border-radius: 20px;
+}
+
+.error {
+  font-weight: bold;
+  height: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  color:var(--color-dark-1);
+}
+
+.actions {
+  gap:3rem;
+  display:flex;
+  justify-content: center;
+}
+
+.success_modal {
+  padding: 2rem;
+  text-align: center;
+}
+
+.success_modal p {
+  margin-bottom: 2rem;
+}

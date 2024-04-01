@@ -1,0 +1,39 @@
+.selected_cocktail {
+  gap: 3rem;
+  display: flex;
+  padding: 2rem;
+}
+
+.selected_cocktail > img {
+  min-width: 20vw;
+  min-height: 10vh;
+  max-height: 40vh;
+  max-width: 20vw;
+}
+
+.selected_cocktail label {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.selected_cocktail li {
+  margin-left: 4rem;
+}
+
+.actions {
+  margin:2rem 0rem;
+  text-align: center;
+}
+
+@media (width < 1600px) {
+  .selected_cocktail {
+    flex-direction: column;
+    gap:3rem;
+  }
+  .selected_cocktail img {
+    max-width:30vw;
+    max-height: 20vh;
+    margin: 0 auto;
+    align-items: center;
+  }
+}

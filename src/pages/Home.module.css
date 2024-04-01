@@ -1,0 +1,9 @@
+.home_spinner {
+  top: 50%;
+  left:50%;
+  position:absolute;
+}
+
+.home_content {
+  margin: 5rem;
+}

@@ -1,0 +1,18 @@
+.notification {
+  min-width: 20rem;
+  min-height: 15rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  color:var(--color-dark-1);
+  border:1px solid var(--color-dark-1);
+  background-color: var(--color-dark-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
